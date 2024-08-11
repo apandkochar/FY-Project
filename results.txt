@@ -1,0 +1,54 @@
+Version 1 & 2 results
+
+   | Name  | Type      | Params | Mode
+---------------------------------------------
+0  | conv1 | Conv2d    | 14.2 K | train
+1  | relu1 | ReLU      | 0      | train
+2  | pool1 | MaxPool2d | 0      | train
+3  | drop1 | Dropout   | 0      | train
+4  | conv2 | Conv2d    | 614 K  | train
+5  | relu2 | ReLU      | 0      | train
+6  | pool2 | MaxPool2d | 0      | train
+7  | drop2 | Dropout   | 0      | train
+8  | full3 | Linear    | 104 M  | train
+9  | relu3 | ReLU      | 0      | train
+10 | drop3 | Dropout   | 0      | train
+11 | full4 | Linear    | 2.0 K  | train
+12 | soft4 | Softmax   | 0      | train
+---------------------------------------------
+105 M     Trainable params
+0         Non-trainable params
+105 M     Total params
+421.958   Total estimated model params size (MB)
+13        Modules in train mode
+0         Modules in eval mode
+Sanity Checking: |                                                                                                                                                               | 0/? [00:00<?, ?it/s]C:\Users\User\OneDrive\Desktop\Sahil Documents\BE Computer\BE Project Test Files\BlurNet\.venv\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:419: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+2.4.0
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+C:\Users\User\OneDrive\Desktop\Sahil Documents\BE Computer\BE Project Test Files\BlurNet\.venv\Lib\site-packages\pytorch_lightning\trainer\connectors\logger_connector\logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default    
+C:\Users\User\OneDrive\Desktop\Sahil Documents\BE Computer\BE Project Test Files\BlurNet\.venv\Lib\site-packages\pytorch_lightning\loops\utilities.py:72: `max_epochs` was not set. Setting it to 1000 epochs. To train without an epoch limit, set `max_epochs=-1`.
+
+   | Name  | Type      | Params | Mode
+---------------------------------------------
+0  | conv1 | Conv2d    | 14.2 K | train
+1  | relu1 | ReLU      | 0      | train
+2  | pool1 | MaxPool2d | 0      | train
+3  | drop1 | Dropout   | 0      | train
+4  | conv2 | Conv2d    | 614 K  | train
+5  | relu2 | ReLU      | 0      | train
+6  | pool2 | MaxPool2d | 0      | train
+7  | drop2 | Dropout   | 0      | train
+8  | full3 | Linear    | 104 M  | train
+9  | relu3 | ReLU      | 0      | train
+10 | drop3 | Dropout   | 0      | train
+11 | full4 | Linear    | 2.0 K  | train
+12 | soft4 | Softmax   | 0      | train
+---------------------------------------------
+105 M     Trainable params
+0         Non-trainable params
+105 M     Total params
+421.958   Total estimated model params size (MB)
+13        Modules in train mode
+0         Modules in eval mode
